@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { ComponentComponent } from './component/component.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { RecoveryPassComponent } from './component/recovery-pass/recovery-pass.component';
-import { RecoveryPasswordComponent } from './component/recovery-password/recovery-password.component';
+import { NewPassComponent } from './component/new-pass/new-pass.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { RecoveryPasswordComponent } from './component/recovery-password/recover
     ComponentComponent,
     NavbarComponent,
     RecoveryPassComponent,
-    RecoveryPasswordComponent
+    NewPassComponent
   ],
   imports: [
     BrowserModule,

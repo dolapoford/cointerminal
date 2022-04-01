@@ -1,0 +1,93 @@
+.all {
+    margin-top: 100px;
+}
+
+.page {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.86);
+}
+
+.pls {
+    height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 90px;
+    margin-top: -8px;
+}
+
+.form1 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+    align-items: center;
+    margin-right: 205px;
+    font-size: 12px;
+}
+
+.form2 {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    align-items: center;
+    color: #000000;
+    margin-top: 13px;
+    margin-right: 130px;
+    font-size: 12px;
+}
+
+.controls {
+    width: 30%;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    margin-left: 39%;
+    margin-top: -3px;
+}
+
+@media screen and (max-width: 600px) {
+    .controls {
+        width: 70%;
+        margin-left: 75px;
+    }
+}
+
+.btn {
+    width: 330px;
+    height: auto;
+    background: #002ac0;
+    margin-top: 30px;
+    font-size: 15px;
+    border: none;
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        width: 70%;
+        margin-left: 35px;
+    }
+}
+
+.last {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .last {
+        margin-right: 70px;
+        text-align: center;
+    }
+}
