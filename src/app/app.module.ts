@@ -6,20 +6,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentComponent } from './component/component.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
-import { SignupComponent } from './component/signup/signup.component';
 import { EmailVerificationComponent } from './component/email-verification/email-verification.component';
 import { PhoneComponent } from './component/phone/phone.component';
 import { PhoneVerificationComponent } from './component/phone-verification/phone-verification.component';
+import { PersonalComponent } from './component/personal/personal.component';
+import { CreateAccountComponent } from './component/create-account/create-account.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponentComponent,
     NavbarComponent,
-    SignupComponent,
     EmailVerificationComponent,
     PhoneComponent,
-    PhoneVerificationComponent
+    PhoneVerificationComponent,
+    PersonalComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,
