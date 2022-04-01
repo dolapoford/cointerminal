@@ -5,8 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentComponent } from './component/component.component';
 import { NavbarComponent } from './component/navbar/navbar.component';
-import { SignupComponent } from './component/signup/signup.component';
-import { LoginVerifyComponent } from './component/login-verify/login-verify.component';
+import { RecoveryPassComponent } from './component/recovery-pass/recovery-pass.component';
 import { RecoveryPasswordComponent } from './component/recovery-password/recovery-password.component';
 
 @NgModule({
@@ -14,8 +13,7 @@ import { RecoveryPasswordComponent } from './component/recovery-password/recover
     AppComponent,
     ComponentComponent,
     NavbarComponent,
-    SignupComponent,
-    LoginVerifyComponent,
+    RecoveryPassComponent,
     RecoveryPasswordComponent
   ],
   imports: [
