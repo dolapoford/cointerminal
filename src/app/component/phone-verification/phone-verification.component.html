@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="text">
+        <h4>Phone Number Verification</h4>
+    </div>
+
+    <div class="box">
+        <div class="stepper-wrapper">
+            <div class="stepper-item completed">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">Input your email</div>
+            </div>
+            <div class="stepper-item completed">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">verify email</div>
+            </div>
+            <div class="stepper-item active completed">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">Enter phone number</div>
+            </div>
+            <div class="stepper-item">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">verify Phone number</div>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="text2">
+                <p>Please enter the 6 digit verification code that was sent to your phone. The code is valid for 20 minutes</p>
+            </div>
+            <form [formGroup]="form">
+                <input  type="text" class="form-control" id="inputEmail4" formControlName="one" maxlength=1>
+                <input  type="text" class="form-control" id="inputEmail4" formControlName="two" maxlength=1>
+                <input  type="text" class="form-control" id="inputEmail4" formControlName="three" maxlength=1>
+                <input  type="text" class="form-control" id="inputEmail4" formControlName="four" maxlength=1>
+                <input  type="text" class="form-control" id="inputEmail4" formControlName="five" maxlength=1>
+                <input  type="text" class="form-control" id="inputEmail4" formControlName="six" maxlength=1>
+
+
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button" [disabled]="!form.valid">Verify</button>
+                  </div>
+
+
+                  <div class="text3">
+                    <p>Didn't get code  <a href=""> Resend</a> </p>
+                </div>
+             </form>
+
+
+             
+                
+          
+
+        </div>
+
+
+    </div>
+    
+
+</div>
