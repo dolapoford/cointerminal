@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavbarComponent } from './component/navbar/navbar.component';
 import { NewPassComponent } from './component/new-pass/new-pass.component';
 import { RecoveryPassComponent } from './component/recovery-pass/recovery-pass.component';
 
