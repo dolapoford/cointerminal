@@ -33,17 +33,19 @@
 }
 
 .controls {
-    width: 30%;
+    width: 23.5%;
     background: #ffffff;
     border: 1px solid #c4c4c4;
     box-sizing: border-box;
-    margin-left: 39%;
+    margin-left: 41.5%;
+    margin-top: 7px;
 }
 
 @media screen and (max-width: 600px) {
     .controls {
         width: 70%;
-        margin-left: 75px;
+        margin-left: 26%;
+        margin-top: 7px;
     }
 }
 
@@ -60,7 +62,7 @@
 @media screen and (max-width: 600px) {
     .btn {
         width: 70%;
-        margin-left: 35px;
+        margin-left: 23%;
     }
 }
 
