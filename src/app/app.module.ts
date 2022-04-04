@@ -10,6 +10,8 @@ import { SignupComponent } from './component/signup/signup.component';
 import { EmailVerificationComponent } from './component/email-verification/email-verification.component';
 import { PhoneComponent } from './component/phone/phone.component';
 import { PhoneVerificationComponent } from './component/phone-verification/phone-verification.component';
+import { NavCompComponent } from './component/nav-comp/nav-comp.component';
+import { SideNavComponent } from './component/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PhoneVerificationComponent } from './component/phone-verification/phone
     SignupComponent,
     EmailVerificationComponent,
     PhoneComponent,
-    PhoneVerificationComponent
+    PhoneVerificationComponent,
+    NavCompComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
