@@ -1,53 +1,23 @@
-.nav-item  a{
-    margin:auto 0.8rem;
-    font-size: 14px;
-    color: black;
-    
-  }
-  
-  .nav-item a:hover{
-    color: blue;
-    border-bottom: .1rem solid blue;
-    padding-bottom: .5rem;
-  }
-  
-  .navbar-brand {
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight:bold;
-  }
-  .navbar-nav{
-    // position: fixed;
-      top:0; left: 0; right: 0;
-      z-index: 1000;
-      font-weight: bold;
-      
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  
-  .btn-primary{
-    padding: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-   .icons div{
-    color: #000;
-    cursor: pointer;
-    // font-size: 14px;
-    margin-left: 2rem;
-   
-  }
-   .icons .search-btn{
-    display:inline;
-    color: #000;
-    
-  }
-   .icons .search-btn a{
-    color: #000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: none;
-  }
+.btn {
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #002ac0;
+  border: none;
+  height: 40px;
+}
+
+.in {
+  top: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
+  margin: 0px 20px;
+}

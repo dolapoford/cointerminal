@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="text">
+        <h4>Phone Number verification</h4>
+    </div>
+
+    <div class="box">
+        <div class="stepper-wrapper">
+            <div class="stepper-item completed">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">Input your email</div>
+            </div>
+            <div class="stepper-item completed">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">verify email</div>
+            </div>
+            <div class="stepper-item active">
+                <div class="step-counter"><i class="bi bi-check"></i></div>
+                <div class="step-name">Enter phone number</div>
+            </div>
+            <div class="stepper-item">
+                <div class="step-counter"></div>
+                <div class="step-name">verify Phone number</div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="text2">
+                <p>Enter your phone number correctly</p>
+            </div>
+
+            <form [formGroup]="form">
+
+                <div class="row">
+                    <div class="col-sm-12 four">
+                        <label for="inputEmail4" class="form-label"> Phone Number</label>
+                        <input type="number" class="form-control" id="inputEmail4" formControlName="phone">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button" [disabled]="!form.valid">Send Code</button>
+                    </div>
+
+
+
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+
+</div>
